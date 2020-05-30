@@ -1,0 +1,39 @@
+.hexagonal{
+
+    width: 800px;
+    height: 400px;
+    background-color: red;
+    transform: rotate(120deg);
+    margin: 0 auto;
+    margin-top: 25%;
+    visibility: hidden;
+    overflow: hidden;
+
+}
+
+.hexagonal-inside{
+
+    width: 100%;
+    height: 100%;
+    background-color:green;
+    transform: rotate(-60deg);
+    overflow: hidden;
+
+  
+
+}
+
+.hexagonal-imagem{
+
+    width: 100%;
+    height: 100%;
+    background-image: url("./coelho.jpg");
+    transform: rotate(-60deg);
+    
+    background-position: center;
+    background-size: 60% 100%;
+    visibility: visible;
+    
+  
+
+}
